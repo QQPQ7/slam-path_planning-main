@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CCTV Control Center</title>
+    <div style="padding:1px 1px 1px 10px;"> <h2>메인관리창</h2> </div>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <hr>
+
+  <script src="script2.js">
+  </script>
+  
+  <body onload="findlocation()">
+    <div class="Map_info">
+      <!--<img src="images/Map_paint.jpg" /></img> -->
+      <div style="position: absolute;">
+        <div style="position: relative; top: 310px; left: 600px;width:5%;height:5%;"><div id="mark"></div> <!--<img src="images/marker.png"/></img>-->
+        </div>
+      </div>
+      <img src="images/Map_paint.jpg" /></img>
+      <div style="text-align:center"><h2>상황 발생 위치</h2></div> <!-- 이상하면 padding으로 변경할 예정-->
+    </div>
+    <div class="info">
+      <div id="img"></div>
+    </div>
+  </body>
+
+</html>

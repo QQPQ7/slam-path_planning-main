@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+/*   overflow: hidden; */
+}
+
+.Map_info {
+  height: 100%;
+  width: 50%;
+  margin : 20px;
+  float: left;
+}
+
+.info {
+  height: 100%;
+  width: 28%;
+  margin :10px;
+  float: left;
+  padding : 1%;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
