@@ -1,0 +1,7 @@
+server 접속
+
+http://capstone5.dothome.co.kr/myadmin/index.php?route=/&route=%2F
+
+
+id : capstone5
+pw : scoutmini5!
